@@ -116,6 +116,10 @@ Example output of a full run (analysis, design, test cases) is in [`examples/res
 
 Full steps, the gates and what each status means: **[User guide](docs/user-guide.md#english)**.
 
+### Contributing and roadmap
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) to report a gap or propose a rule, and [ROADMAP.md](ROADMAP.md) for what comes next.
+
 ### License
 
 MIT. See [LICENSE](LICENSE).
@@ -191,6 +195,10 @@ Thêm vài câu lệnh:
 Kết quả mẫu của một lần chạy đầy đủ (phân tích, thiết kế, test case) nằm ở [`examples/results/`](examples/results/).
 
 Các bước đầy đủ, cổng duyệt và ý nghĩa từng trạng thái: **[Hướng dẫn sử dụng](docs/user-guide.md#tiếng-việt)**.
+
+### Đóng góp và lộ trình
+
+Xem [CONTRIBUTING.md](CONTRIBUTING.md) để báo lỗi hoặc đề xuất quy tắc, và [ROADMAP.md](ROADMAP.md) để biết kế hoạch tiếp theo.
 
 ### Giấy phép
 
