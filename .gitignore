@@ -39,3 +39,8 @@ docs/design.md
 docs/repo-policy.md
 docs/skills-planned.md
 agents/README.md
+
+# Templates with empty values are public (the patterns above would hide them)
+!examples/config/
+!examples/config/profile.example.json
+!examples/config/secrets.example.env

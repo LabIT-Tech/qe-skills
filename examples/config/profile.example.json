@@ -1,0 +1,40 @@
+{
+  "_help": "Copy this file to profile.<name>.json in your config folder (see the user guide, section Connect Jira, Xray and Confluence). Fill every value for your own system. This file holds NO secrets. Keys that start with an underscore are ignored by the skills.",
+  "atlassian": {
+    "site": "https://your-site.atlassian.net",
+    "jiraProjectKey": "ABC",
+    "confluenceSpaceKey": "ABC",
+    "confluenceParentPageId": ""
+  },
+  "xray": {
+    "type": "cloud",
+    "_type_values": "cloud or server",
+    "testRepositoryRoot": "/"
+  },
+  "issueTypes": {
+    "bug": "Bug",
+    "test": "Test",
+    "testExecution": "Test Execution",
+    "testSet": "Test Set"
+  },
+  "fields": {
+    "_help": "Custom field ids look like customfield_10042. Leave a value empty if your project does not use that field.",
+    "testType": "",
+    "testRepositoryPath": "",
+    "manualSteps": "",
+    "severity": "",
+    "environment": ""
+  },
+  "statuses": {
+    "open": "To Do",
+    "inProgress": "In Progress",
+    "resolved": "Done"
+  },
+  "labels": {
+    "bug": ""
+  },
+  "output": {
+    "root": "",
+    "language": "English"
+  }
+}
