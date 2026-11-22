@@ -1,0 +1,60 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Product API (invented sample)",
+    "version": "demo",
+    "description": "An invented API for trying the skills. Not a real service."
+  },
+  "paths": {
+    "/product": {
+      "post": {
+        "summary": "Create a product",
+        "security": [{ "bearerAuth": [] }],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": { "$ref": "#/components/schemas/ProductRequest" }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Created",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/ProductResponse" }
+              }
+            }
+          },
+          "401": { "description": "Unauthorized" }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "bearerAuth": { "type": "http", "scheme": "bearer" }
+    },
+    "schemas": {
+      "ProductRequest": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string", "example": "Notebook A5" },
+          "price": { "type": "number", "example": 49.5 },
+          "category": { "type": "string", "enum": ["STATIONERY", "TOYS", "BOOKS"] },
+          "supplierId": { "type": "string" },
+          "description": { "type": "string" }
+        }
+      },
+      "ProductResponse": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "status": { "type": "string" }
+        }
+      }
+    }
+  }
+}

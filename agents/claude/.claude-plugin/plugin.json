@@ -1,0 +1,22 @@
+{
+  "name": "qe-skills",
+  "version": "0.1.0",
+  "description": "Three chained skills for API testing: analyze an API into a TestAnalysis with an evidence ledger, design tests with ISTQB techniques, and generate test cases in a fixed table format. Each step needs an approved input from the step before.",
+  "author": {
+    "name": "LabIT",
+    "email": "vn.labit@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "qa",
+    "quality-engineering",
+    "api-testing",
+    "test-design",
+    "test-case",
+    "swagger",
+    "openapi",
+    "istqb",
+    "xray"
+  ],
+  "skills": "./skills"
+}

@@ -1,0 +1,43 @@
+# Build output (rebuilt by scripts/build.sh)
+dist/
+.DS_Store
+
+# Local notes for Claude Code, not committed
+CLAUDE.md
+.claude/settings.local.json
+
+# Local-only working area: real runs, private plans, config. See docs/repo-policy.md
+local/
+
+# Verification kit and run results (kept in local/verify and local/test-result)
+scripts/validate.py
+evals/
+docs/test-result/
+
+# Secrets and credentials, never committed
+.env
+.env.*
+*.pem
+*.key
+*.token
+credentials*.json
+secrets*
+.qe-skills/
+profile.*.json
+
+# Raw evidence from real systems (screenshots, HAR, DOM dumps, browser profiles)
+*.har
+scan-output/
+browser-profile/
+
+# Maintainer-only: source, build scripts, internal docs. Kept on the maintainer's machine, never published
+skills/
+shared/
+scripts/
+docs/plans/
+docs/design.md
+docs/repo-policy.md
+docs/skills-planned.md
+agents/README.md
+CONTRIBUTING.md
+ROADMAP.md

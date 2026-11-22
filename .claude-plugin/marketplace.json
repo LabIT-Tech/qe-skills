@@ -1,0 +1,21 @@
+{
+  "name": "labit-qe-skills",
+  "owner": {
+    "name": "LabIT",
+    "email": "vn.labit@gmail.com"
+  },
+  "metadata": {
+    "description": "AI skills for quality engineers by LabIT: faster test work with human-approved, source-traced quality control.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "qe-skills",
+      "source": "./agents/claude",
+      "description": "Analyze an API, design tests, and generate test cases with an approval gate between each step.",
+      "version": "0.1.0",
+      "category": "testing",
+      "keywords": ["api-testing", "test-design", "test-case", "swagger", "istqb"]
+    }
+  ]
+}
