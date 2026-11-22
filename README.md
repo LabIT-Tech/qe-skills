@@ -19,6 +19,21 @@ qe-skills is a LabIT toolkit of AI skills for quality engineers. It speeds up te
 
 qe-skills là bộ skill AI của LabIT cho kỹ sư quản lý chất lượng (QE). Bộ skill giúp tăng tốc công việc kiểm thử, từ phân tích, thiết kế đến test case sẵn sàng import, đồng thời kiểm soát chất lượng: mỗi bước cần người duyệt, mỗi nhận định truy về nguồn, khoảng trống được giữ lại thành câu hỏi mở. Dùng với Claude và Kiro, bắt đầu từ kiểm thử API.
 
+## Practice system / Hệ thống thực hành
+
+LabIT runs a practice system you can test against: the Product Management API of an e-commerce lab. LabIT có sẵn một hệ thống để bạn thử nghiệm: Product Management API của một lab thương mại điện tử.
+
+- Swagger UI: https://lab-ecom-api.labit.vn/v0/prod-man/swagger-ui.html#
+
+| Role / Vai trò | Username / Tên đăng nhập | Password / Mật khẩu |
+| :-- | :-- | :-- |
+| Admin | `admin_com_role` | `aA12345678@` |
+| User | `user_com_role` | `aA12345678@` |
+
+These accounts are shared by everyone and hold only demo data. Do not enter real data, and never reuse this password anywhere else. The skills never ask you for a password: you sign in yourself, and the skill waits for your approval before any real API call.
+
+Các tài khoản này dùng chung cho mọi người và chỉ chứa dữ liệu mẫu. Không nhập dữ liệu thật, và không dùng lại mật khẩu này ở nơi khác. Skill không bao giờ hỏi mật khẩu của bạn: bạn tự đăng nhập, và skill chờ bạn đồng ý trước khi gọi API thật.
+
 ## Contact
 
 | Website | Email | Zalo group |
